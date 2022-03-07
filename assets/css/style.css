@@ -43,6 +43,10 @@ body {
     margin-left: 25px;
 }
 
+.content {
+    background-color:#ddbea9 ;
+}
+
 a {
     color: #b7b7b7 ;
     text-decoration: none;
