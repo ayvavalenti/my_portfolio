@@ -3,88 +3,126 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma-rtl.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Ayva Valenti Professional Portfolio</title>
 </head>
 
 <body>
     <!-- header section w/ name photo and three sections -->
-    <header>
-        <div class="header">
-            <h1>Ayva Valenti</h1>
-            
-            <br><br>
-            
-            <h2>(she/they)</h2>
-            <img src="assets/images/header.HEIC" alt="I have not done a nice headshot yet, clearly.">
-        </div>
-        <div>
-            <ul>
-                <li>
-                    <a href="about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="my-work">My Work</a>
-                </li>
-                <li>
-                    <a href="contact-info">Contact Me</a>
-                </li>
-            </ul>
-        </div>
-    </header>
-
-    <br><br>
-    <!-- info section -->
-    <main>
-        <div class="content">
-            <section>
-            <div id="about-me" class="about-me">
-                <img src="assets/images/about me.JPG" class="float-right" alt="I have no nice photos of my face i am so sorry" 
-                width="300" height="300">
-                <h3>About Me</h3>
-                <p>I am a 20 year old student currently enrolled in the carleton coding boot camp. I also work as a full time preschool instructor for a learn to read program. </p>
-            </div>
-            </section>
-
-            <br><br>
-
-            <section>
-            <div id="my-work" class="my-work">
-                <h3>My Work</h3>
-                <a href="https://ayvavalenti.github.io/horiseon/">
-                    <img alt="Horiseon logo" src="./assets/images/horiseon.png" 
-                    width= 400 height="150" class="float-left">
+  <header>
+       <section class="hero late-gray-bg is-fullheight custom-font">
+        <div class="hero-head">
+          <nav class="navbar is-primary is-fixed-top">
+            <div class="is-flex is-justify-content-space-between w-full px-1 py-3 late-gray-bg">
+              <div class="navbar-brand">
+                  <p class="title has-text-primary">Ayva Valenti</p>
                 </a>
+              </div>
+              <div class="navbar-menu">
+                <div class="navbar-end">
+                    <div class="navbar-menu is-size-6" id="nav-links">
+                        <div class="navbar-end">
+                            <a href="#about-me" class="navbar-item">About Me</a>
+                            <a href="#my-work" class="navbar-item">My Work</a>
+                            <a href ="#contact-me" class="navbar-item" >Contact Me</a>
+                        </div>
+                    </div>
+                  </span>
+                </div>
+              </div>
+              <span class="navbar-burger" data-target="navbarMenuHeroB">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
             </div>
-            </section>
+          </nav>
+        </div>
+        <div class="hero-body p-0 custom-font">
+          <div class="main-hero"></div>
+          <div class="container has-text-centered">
+            <p data-aos="zoom-out-down" class="subtitle font-light">Hi friend, i'm changing my Portfolio website right now, sorry its not pretty</p>
+            <h1 data-aos="zoom-out" class="title font-light is-1">
+              <em></em>
+            </h1>
+            <p data-aos="zoom-out-up" class="subtitle font-light"></p>
+          </div>
+        </div>
+      </section>
+
+<div id="about-me" class="pt-6"></div>
+<section class="block py-6 custom-font">
+  <div class="column is-4 mx-auto">
+    <h2 data-aos="fade-out" class="title has-text-centered is-uppercase">
+      About Me
+    </h2>
+    <div class="title-underline"></div>
+  </div>
+  <div class="columns mx-0">
+    <div class="column is-5 m-auto p-6">
+      <p data-aos="fade-up">I am a 20 year old student currently enrolled in the carleton coding boot camp. 
+          I also work as a full time preschool instructor for a learn to read program. My pronouns are she/they.</p>
+    </div>
+    <figure data-aos="fade-down" class="image p-6 m-auto column is-5">
+      <img class="standard-radius" src="" alt="" />
+  </div>
+</section>
+
+
+
+<div id="my-work" class="py-6"></div>
+<section class="block py-6 custom-font">
+  <div class="column is-4 mx-auto">
+    <h2 class="title has-text-centered is-uppercase" data-aos="fade-down">
+      My Work
+    </h2>
+    <div class="title-underline"></div>
+  </div>
+  <div class="columns mx-0 is-multiline">
+    <div class="column is-10 columns mx-auto mt-6">
+      <figure class="image column is-4 mx-auto" data-aos="fade-up">
+        <a href="https://ayvavalenti.github.io/horiseon/">
+        <img class="standard-radius" src="./assets/images/horiseon.png" alt="" />
+        <span class="title font-light">Horiseon</span>
+      </figure>
+      <figure class="image column is-4 mx-auto" data-aos="fade-down" data-aos-delay="100">
+        <a href="https://ayvavalenti.github.io/super-cool-project/">
+        <img class="standard-radius" src="./assets/images/toronto_raptors_2015-present-a.png" alt="raptors logo" />
+        <span class="title font-light">That's a Rap</span>
+      </figure>
+      <figure
+        class="figure image column is-4 mx-auto"
+        data-aos="fade-up"
+        data-aos-delay="200"
+      >
+    </div>
+  </div>
+</section>
+
 
             <br><br>
 
-            <section>
-            <div id="contact-info" class="contact-info">
-                <img src="./assets/images/phone-book-2647962-2214800.webp" class="float-right" alt="black line drawing of a contacts book">
+            <div id="contact-me" class="contact-me">
                 <h3>Contact Me</h3>
                 <ul>
                     <li>Email: ayvachristinevalenti@gmail.com</li>
                     <li>Phone: 519-215-6742</li>
                     <li>Linkedin: <a href="linkedin.com/in/ayva-valenti-1602911a9">
-                        <img alt="linkendin logo" src="./assets/images/in-linkedin-button-linkedin-logo-social-media-icon-popular-social-media.png" 
-                        width= 70 height="70" class="float-left">
-                    </a></li>
                 </ul>
-            </div>
-            </section>
 
-            <br><br>
-
-        </div>
-    </main>
 
 <br><br>
 
     <footer class="footer">
-        <p>❤️️❤️️❤️️❤️️❤️️❤️️❤️️❤️️❤️️❤️️❤️️❤️️❤️️❤️️</p>
     </footer>
+    <script src="./assets/js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init()</script>
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
 </body>
 
 </html>
